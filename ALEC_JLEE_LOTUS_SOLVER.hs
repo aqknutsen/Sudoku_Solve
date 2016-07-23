@@ -201,7 +201,7 @@ solver lotus_array testboard current_index next_move_arr
 lotusSolver::[Int] -> [Int]
 lotusSolver testboard = solver testboard testboard (findEmpty testboard 0) (getValidMoves testboard (findEmpty testboard 0) 1)
 
---Some testcode
+--Example Input Board
 testboard = [0,0,0,7,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0]
 
 
